@@ -1,2 +1,2 @@
 # SibGameJam2024
-Arcade
+Жанр - Arcade
