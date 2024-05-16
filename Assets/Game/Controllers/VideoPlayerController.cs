@@ -2,13 +2,15 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class VideoPlayerController : MonoBehaviour
 {
-    public VideoPlayer videoPlayer;
-    public int nextSceneName;
+    [SerializeField] private VideoPlayer videoPlayer;
+    [SerializeField] private int nextSceneName;
+    [SerializeField] private float _endVideoTimer;
 
-    void Start()
+    private void Start()
     {
         videoPlayer.loopPointReached += EndReached;
     }
@@ -20,7 +22,7 @@ public class VideoPlayerController : MonoBehaviour
 
     private IEnumerator LoadNextScene()
     {
-        yield return new WaitForSeconds(1); //Делаем задержку, чтобы видео успело проиграть до конца
+        yield return new WaitForSeconds(_endVideoTimer);
 
         SceneManager.LoadScene(nextSceneName);
     }

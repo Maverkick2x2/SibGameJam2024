@@ -3197,6 +3197,7 @@ GameObject:
   - component: {fileID: -6948887562835436723}
   - component: {fileID: 9220322522389426188}
   - component: {fileID: 7444444101592122887}
+  - component: {fileID: 3548447123398730625}
   m_Layer: 6
   m_Name: FlyBug_Skeleton
   m_TagString: FlyingBug
@@ -3258,7 +3259,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rotationSpeed: 1
   _moveSpeed: 1
-  _slowingTimer: 8
+  _slowingTimer: 4
+  _breakTimer: 0.1
+  _flyAwayTimer: 1
 --- !u!114 &1787977722776746051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3339,6 +3342,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxReward: 13
   _minReward: 5
+  Hit:
+    m_PersistentCalls:
+      m_Calls: []
   Fight:
     m_PersistentCalls:
       m_Calls:
@@ -3381,6 +3387,20 @@ MonoBehaviour:
   audioSource:
   - {fileID: 3729732452515531599}
   - {fileID: 0}
+--- !u!114 &3548447123398730625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6457403484934961148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51102d5b7b65b1245967fa95979f7714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newMaterial: {fileID: 2100000, guid: 89469f5c2e531924e88ef08b142e475b, type: 2}
+  _changeColorTimer: 4
 --- !u!1 &6727055783397755122
 GameObject:
   m_ObjectHideFlags: 0

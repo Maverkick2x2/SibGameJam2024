@@ -26,6 +26,4 @@ public class Sounds : MonoBehaviour
         _audioSource.clip = SoundsCollection[0];
         _audioSource.Play();
     }
-
-
 }

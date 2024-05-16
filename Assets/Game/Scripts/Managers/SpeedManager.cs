@@ -33,8 +33,6 @@ public class SpeedManager : MonoBehaviour
                 {
                     _randomMoveObjects[j].Speed = _maxSpeedValue;
                 }
-
-                Debug.Log(_randomMoveObjects[j].Speed);
             }
 
             if (_speedValue < 2f)

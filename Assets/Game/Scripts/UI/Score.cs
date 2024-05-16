@@ -3,13 +3,14 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-    private int _score;
-    [SerializeField] ScoreView _scoreView;
-
     public static event Action<int> OnSceneLoadedEvent;
 
-    public int ScoreValue { get { return _score; } }
+    [SerializeField] ScoreView _scoreView;
 
+    private int _score;
+
+    public int ScoreValue { get { return _score; } }
+    
     private void Awake()
     {
         EventManager.CoinPickedUp.AddListener(Increase);
@@ -28,7 +29,7 @@ public class Score : MonoBehaviour
 
         if (_score >= 1000)
         {
-            OnSceneLoadedEvent?.Invoke(2);
+            OnSceneLoadedEvent?.Invoke(3);
         }
     }
 }

@@ -4,11 +4,12 @@ using UnityEngine.EventSystems;
 public class SoundsPlayer : MonoBehaviour, IPointerEnterHandler
 {
     [SerializeField] private AudioSource[] audioSource;
+    [SerializeField] private AudioSource _clickaudioSource;
     public void PlaySound()
     {
-        if (audioSource[0] != null)
+        if (_clickaudioSource != null)
         {
-            audioSource[0].Play();
+            _clickaudioSource.Play();
         }
     }
 
@@ -19,11 +20,13 @@ public class SoundsPlayer : MonoBehaviour, IPointerEnterHandler
             audioSource[2].Play();
         }
     }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (audioSource[1] != null)
+        int rSound = Random.Range(0,audioSource.Length);
+        if (audioSource[rSound] != null)
         {
-            audioSource[1].Play();
+            audioSource[rSound].Play();
         }
     }
 }

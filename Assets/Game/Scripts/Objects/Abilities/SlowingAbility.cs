@@ -1,24 +1,23 @@
+using System;
 using UnityEngine;
 
 public class SlowingAbility : MonoBehaviour
 {
-    private RandomMove[] _coinsRandomMoveObjects;
+    public static event Action OnSpeedMoveChangeEvent;
+
+    private SoundsPlayer _soundsPlayer;
 
     private void Start()
     {
-        _coinsRandomMoveObjects = FindObjectsOfType<RandomMove>();
+        _soundsPlayer = GameObject.FindGameObjectWithTag("Boost").GetComponent<SoundsPlayer>();
     }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.TryGetComponent(out PhysicCharacterMovement characterMovement))
         {
-            for (int i = 0; i < _coinsRandomMoveObjects.Length; i++)
-            {
-                _coinsRandomMoveObjects[i].Slow();
-            }
-
-            GameObject.FindGameObjectWithTag("Boost").GetComponent<SoundsPlayer>().PlaySound();
+            OnSpeedMoveChangeEvent?.Invoke();
+            _soundsPlayer.PlaySound();
             EventManager.PlaySound();
             gameObject.SetActive(false);
         }

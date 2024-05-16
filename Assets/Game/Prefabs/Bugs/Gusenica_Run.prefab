@@ -816,6 +816,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9157962d0c753d548b0fd0a48a873d57, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7681403762418167264}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9157962d0c753d548b0fd0a48a873d57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 152129264380337976}
   m_SourcePrefab: {fileID: 100100000, guid: 9157962d0c753d548b0fd0a48a873d57, type: 3}
 --- !u!1 &453271338961834265 stripped
 GameObject:
@@ -902,7 +905,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rotationSpeed: 1
   _moveSpeed: 0.5
-  _slowingTimer: 8
+  _slowingTimer: 4
+  _breakTimer: 0.1
+  _flyAwayTimer: 1
 --- !u!95 &877556526645247149
 Animator:
   serializedVersion: 5
@@ -956,6 +961,20 @@ MonoBehaviour:
   Fight:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &152129264380337976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453271338961834265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51102d5b7b65b1245967fa95979f7714, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _newMaterial: {fileID: 2100000, guid: 816f6bf1ff7cb9b4f927026f8cdac001, type: 2}
+  _changeColorTimer: 4
 --- !u!4 &937178962304420771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9157962d0c753d548b0fd0a48a873d57, type: 3}
