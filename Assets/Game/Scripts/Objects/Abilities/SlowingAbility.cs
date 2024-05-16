@@ -17,8 +17,7 @@ public class SlowingAbility : MonoBehaviour
         if (collision.collider.TryGetComponent(out PhysicCharacterMovement characterMovement))
         {
             OnSpeedMoveChangeEvent?.Invoke();
-            _soundsPlayer.PlaySound();
-            EventManager.PlaySound();
+            _soundsPlayer.PlayAnotherSound();
             gameObject.SetActive(false);
         }
     }

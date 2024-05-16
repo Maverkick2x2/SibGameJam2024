@@ -3384,9 +3384,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 3729732452515531599}
+  _dedVoiceAudioSource:
   - {fileID: 0}
+  _anotherAudioSource: {fileID: 3729732452515531599}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!114 &3548447123398730625
 MonoBehaviour:
   m_ObjectHideFlags: 0

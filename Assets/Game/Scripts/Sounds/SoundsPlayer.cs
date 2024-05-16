@@ -3,30 +3,41 @@ using UnityEngine.EventSystems;
 
 public class SoundsPlayer : MonoBehaviour, IPointerEnterHandler
 {
-    [SerializeField] private AudioSource[] audioSource;
-    [SerializeField] private AudioSource _clickaudioSource;
-    public void PlaySound()
+    [SerializeField] private AudioSource[] _dedVoiceAudioSource;
+    [SerializeField] private AudioSource _anotherAudioSource;
+    [SerializeField] private AudioSource _stepSoundSource;
+    [SerializeField] private AudioSource _clickSoundSource;
+
+    public void PlayClickSoundSound()
     {
-        if (_clickaudioSource != null)
+        if (_clickSoundSource != null)
         {
-            _clickaudioSource.Play();
+            _clickSoundSource.Play();
         }
     }
 
     public void PlayStepSound()
     {
-        if (audioSource[2] != null)
+        if (_stepSoundSource != null)
         {
-            audioSource[2].Play();
+            _stepSoundSource.Play();
+        }
+    }
+
+    public void PlayAnotherSound()
+    {
+        if (_anotherAudioSource != null)
+        {
+            _anotherAudioSource.Play();
         }
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        int rSound = Random.Range(0,audioSource.Length);
-        if (audioSource[rSound] != null)
+        int rSound = Random.Range(0, _dedVoiceAudioSource.Length);
+        if (_dedVoiceAudioSource[rSound] != null)
         {
-            audioSource[rSound].Play();
+            _dedVoiceAudioSource[rSound].Play();
         }
     }
 }

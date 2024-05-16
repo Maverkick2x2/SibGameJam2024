@@ -731,10 +731,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 1913289490}
 --- !u!1 &357303412
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,10 +905,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &363536531 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7040887936836161384, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
@@ -926,14 +926,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
+  _dedVoiceAudioSource:
   - {fileID: 1945166049}
   - {fileID: 2035472902}
   - {fileID: 1032551394}
   - {fileID: 8124605628521691027}
   - {fileID: 8124605628521691026}
   - {fileID: 1486617099}
-  _clickaudioSource: {fileID: 1913289490}
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 1913289490}
 --- !u!1 &433453504
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,10 +1263,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 1913289490}
 --- !u!1 &567046856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1435,10 +1437,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!224 &599849008 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6781674549947947831, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
@@ -1614,10 +1616,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &679030609 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2245721067402064523, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
@@ -1635,14 +1637,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
+  _dedVoiceAudioSource:
   - {fileID: 1945166049}
   - {fileID: 2035472902}
   - {fileID: 1032551394}
   - {fileID: 8124605628521691027}
   - {fileID: 8124605628521691026}
   - {fileID: 1486617099}
-  _clickaudioSource: {fileID: 1913289490}
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 1913289490}
 --- !u!1 &698879683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2079,10 +2083,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &763202989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2427,10 +2431,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &885008688
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,10 +2857,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &1146055889
 GameObject:
   m_ObjectHideFlags: 0
@@ -3185,10 +3189,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &1316106188
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,10 +3439,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &1406475108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3609,10 +3613,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &1486617097
 GameObject:
   m_ObjectHideFlags: 0
@@ -4065,10 +4069,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 1913289490}
 --- !u!1 &1698169188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4391,10 +4395,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &1833098209
 GameObject:
   m_ObjectHideFlags: 0
@@ -4565,10 +4569,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &1852127119 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 612550790603246689, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
@@ -4586,14 +4590,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
+  _dedVoiceAudioSource:
   - {fileID: 1945166049}
   - {fileID: 2035472902}
   - {fileID: 1032551394}
   - {fileID: 8124605628521691027}
   - {fileID: 8124605628521691026}
   - {fileID: 1486617099}
-  _clickaudioSource: {fileID: 1913289490}
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 1913289490}
 --- !u!82 &1913289490 stripped
 AudioSource:
   m_CorrespondingSourceObject: {fileID: 4334899025946151864, guid: 97d9a97849226b842ae59ad28daf8acd, type: 3}
@@ -4779,10 +4785,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource:
-  - {fileID: 1913289490}
-  - {fileID: 0}
-  _clickaudioSource: {fileID: 0}
+  _dedVoiceAudioSource: []
+  _anotherAudioSource: {fileID: 0}
+  _stepSoundSource: {fileID: 0}
+  _clickSoundSource: {fileID: 0}
 --- !u!1 &2082468745
 GameObject:
   m_ObjectHideFlags: 0
@@ -5273,11 +5279,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3877664795252025048, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlaySound
+      value: PlayClickSoundSound
       objectReference: {fileID: 0}
     - target: {fileID: 3877664795252025048, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: SoundsButton, Assembly-CSharp
+      value: SoundsPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 3877664795252025048, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5381,11 +5387,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5728866377059494437, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: PlaySound
+      value: PlayClickSoundSound
       objectReference: {fileID: 0}
     - target: {fileID: 5728866377059494437, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: SoundsButton, Assembly-CSharp
+      value: SoundsPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5728866377059494437, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
@@ -5445,7 +5451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6002270478230737624, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlaySound
+      value: PlayClickSoundSound
       objectReference: {fileID: 0}
     - target: {fileID: 6002270478230737624, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -5457,7 +5463,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6002270478230737624, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: SoundsButton, Assembly-CSharp
+      value: SoundsPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6002270478230737624, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
@@ -5537,11 +5543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8702594787538982615, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: PlaySound
+      value: PlayClickSoundSound
       objectReference: {fileID: 0}
     - target: {fileID: 8702594787538982615, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: SoundsButton, Assembly-CSharp
+      value: SoundsPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8702594787538982615, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_BoolArgument
@@ -5585,7 +5591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8729814910137261524, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlaySound
+      value: PlayClickSoundSound
       objectReference: {fileID: 0}
     - target: {fileID: 8729814910137261524, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -5593,7 +5599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8729814910137261524, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: SoundsButton, Assembly-CSharp
+      value: SoundsPlayer, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8729814910137261524, guid: 00e02a1d15f4155408ce9944204646ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
