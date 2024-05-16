@@ -731,7 +731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dedVoiceAudioSource: []
+  _dedVoiceAudioSource:
+  - {fileID: 0}
   _anotherAudioSource: {fileID: 0}
   _stepSoundSource: {fileID: 0}
   _clickSoundSource: {fileID: 1913289490}
@@ -1263,7 +1264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dedVoiceAudioSource: []
+  _dedVoiceAudioSource:
+  - {fileID: 0}
   _anotherAudioSource: {fileID: 0}
   _stepSoundSource: {fileID: 0}
   _clickSoundSource: {fileID: 1913289490}
@@ -4069,7 +4071,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3614d084308ef20418bfe6e36884de5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dedVoiceAudioSource: []
+  _dedVoiceAudioSource:
+  - {fileID: 0}
   _anotherAudioSource: {fileID: 0}
   _stepSoundSource: {fileID: 0}
   _clickSoundSource: {fileID: 1913289490}
