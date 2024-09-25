@@ -38,20 +38,29 @@ public class PoolObject : MonoBehaviour
 
     private void Start()
     {
+        InitializePools();
+        ResetTimer();
+    }
+
+    private void ResetTimer()
+    {
         _bugTimer = _bugTimerCounter;
         _flyBugTimer = _flyBugTimerCounter;
+    }
 
-        _bugPool = new PoolMono<Bug>(_bugPrefab, _poolCount, transform);
-        _flyBugPool = new PoolMono<FlyingBug>(_flyBugPrefab, _poolCount, transform);
-        _healthAbilityPool = new PoolMono<HealthAbility>(_healthAbilityPrefab, _poolCount, transform);
-        _speedPool = new PoolMono<DoubleSpeedAbility>(_speedAbilityPrefab, _poolCount, transform);
-        _slowPool = new PoolMono<SlowingAbility>(_slowAbilityPrefab, _poolCount, transform);
+    private void InitializePools()
+    {
+        CreatePool(ref _bugPool, _bugPrefab);
+        CreatePool(ref _flyBugPool, _flyBugPrefab);
+        CreatePool(ref _healthAbilityPool, _healthAbilityPrefab);
+        CreatePool(ref _speedPool, _speedAbilityPrefab);
+        CreatePool(ref _slowPool, _slowAbilityPrefab);
+    }
 
-        _bugPool.AutoExpand = _autoExpand;
-        _flyBugPool.AutoExpand = _autoExpand;
-        _healthAbilityPool.AutoExpand = _autoExpand;
-        _speedPool.AutoExpand = _autoExpand;
-        _slowPool.AutoExpand = _autoExpand;
+    private void CreatePool<T>(ref PoolMono<T> pool, T prefab) where T : MonoBehaviour
+    {
+        pool = new PoolMono<T>(prefab, _poolCount, transform);
+        pool.AutoExpand = _autoExpand;
     }
 
     private void Update()
